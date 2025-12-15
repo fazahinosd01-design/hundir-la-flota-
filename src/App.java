@@ -239,7 +239,7 @@ public class App {
      *                llega a 0.
      */
     public static void jugarPVE() {
-        System.out.println("\n---ESTE ES EL INICIO MODO PVE ---");
+        System.out.println("\n--- INICIO MODO PVE ---");
         boolean turnoJ1 = true;
         Random r = new Random();
 
