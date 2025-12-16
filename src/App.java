@@ -612,13 +612,13 @@ public class App {
                 String color = ANSI_BLUE;
 
                 if (valor == 0 || (valor >= 1 && valor <= 5)) {
-                    simbolo = "~"; // Ocultamos barcos como agua
+                    simbolo = "w"; // Ocultamos barcos como agua
                     color = ANSI_BLUE;
                 } else if (valor == 6) {
-                    simbolo = "X"; // Tocado
+                    simbolo = "x"; // Tocado
                     color = ANSI_RED;
                 } else if (valor == 7) {
-                    simbolo = "O"; // Agua disparada
+                    simbolo = "o"; // Agua disparada
                     color = ANSI_CYAN;
                 }
 
